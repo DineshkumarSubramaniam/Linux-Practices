@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	//function call to get device name
 	ioctl(fd, EVIOCGNAME(sizeof(name)), name);
-	printf("Entered device name: \%s", name);
+	printf("Entered device name: %s", name);
 	printf("\n");
 
 	return 0;

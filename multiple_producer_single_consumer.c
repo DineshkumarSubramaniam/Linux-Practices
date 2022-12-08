@@ -1,4 +1,4 @@
-/* program to check the producer consumer problem using with semaphore and mutex */
+/* program to check the producer consumer problem using multiple producer with semaphore and mutex */
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>

@@ -26,6 +26,7 @@ sem_t full, empty;
 
 int main()
 {
+    // Thread declaration
     pthread_t pro1,pro2,con;
     sem_init(&full,0,0);
     sem_init(&empty,0,5);
@@ -70,20 +71,6 @@ int main()
         perror("Thread failed to join\n");
         exit(EXIT_FAILURE);
     }
-
-
-
-
-   /* Joining the thread consumer
-    if(pthread_join(con, NULL)!=0)
-    {
-        perror("Thread failed to join\n");
-        exit(EXIT_FAILURE);
-    }
-
-*/
-
-
 
    exit(EXIT_SUCCESS);
 }

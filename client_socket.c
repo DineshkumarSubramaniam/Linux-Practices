@@ -50,15 +50,6 @@ void func(int sockfd)
 		// print buffer which contains the server contents
 		printf("\tFrom Server : %s", buff);
 
-
-		// if msg contains "Exit" then client exit and chat ended
-                /*
-		if ((strncmp(buff, "exit", 4)) == 0) 
-		{
-			printf("Client Exit...\n");
-			break;
-		} 
-              */
 	}
 }
 

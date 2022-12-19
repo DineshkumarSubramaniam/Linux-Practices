@@ -40,7 +40,7 @@ int main(int argc , char*argv[])
     // condition to print if priority set is not found 
     else
     {
-        printf("not set\n");
+        printf("Error in setting the priority\n");
     }   
 }
 
